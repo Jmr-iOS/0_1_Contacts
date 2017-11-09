@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         return;
     }
     
-    func makeAMonsterousLabel(_ view:UIView) {
+    @objc func makeAMonsterousLabel(_ view:UIView) {
         
         let myFirstLabel  = UILabel();
 

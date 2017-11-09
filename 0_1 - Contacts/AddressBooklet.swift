@@ -34,7 +34,7 @@ class AddressBooklet : NSObject {
         return;
     }
 
-    func demo() {
+    @objc func demo() {
 
         // Create a address book instance.
 //        ABAddressBookRef addressbook = ABAddressBookCreateWithOptions(NULL, error);
